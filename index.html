@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SpotyTry - <span>Registrazione</span></h1>
+        <form onsubmit="alert('Registrazione Inviata!')">
+            <div class="ID">
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Cognome">
+            </div>
+            <input type="email" placeholder="Mail" class="full"><br>
+            <input type="password" placeholder="Password" class="full"><br>
+            <input type="number" placeholder="+39   Numero di Telefono" class="full"><br>
+            <h5>La tua data di nascita</h5>
+            <input type="date">    
+            <h5>Seleziona i tuoi gusti musicali</h5>
+            <ul>
+                <li><input type="checkbox">Rock</li>
+                <li><input type="checkbox">Pop</li>
+                <li><input type="checkbox">Indie</li>
+                <li><input type="checkbox">Rap</li>
+                <li><input type="checkbox">Trap</li>
+                <li><input type="checkbox">Metal</li>
+                <li><input type="checkbox">Jazz</li>
+                <li><input type="checkbox">Blues</li>
+                <li><input type="checkbox">R&B</li>
+            </ul>
+            <input type="radio" class="radio"><label for="" class="terms">Accetto i termini e condizioni d'uso</label><br>
+            <button type="submit">Invia Registrazione</button>
+        </form>
+    </div>
+    <img src="music.png" alt="MUSIC">
+</body>
+</html>
